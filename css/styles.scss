@@ -157,8 +157,27 @@ a {
     }
 }
 
+.level-2 {
+	background-image: url('../img/level-2/backdrop01.png');
 
+	.cat {
+		top: 358px;
+   		left: 800px;
+   		z-index: 99;
+	}
 
+	.access-card {
+		top: 409px;
+    	left: 817px;
+    	cursor: pointer;
+	}
+
+	.access-granted {
+		top: 409px;
+    	left: 510px;
+    	display: none;
+	}
+}
 
 
 

@@ -133,3 +133,18 @@ a {
     float: right;
     margin-right: 52px;
     margin-top: 16px; }
+
+.level-2 {
+  background-image: url("../img/level-2/backdrop01.png"); }
+  .level-2 .cat {
+    top: 358px;
+    left: 800px;
+    z-index: 99; }
+  .level-2 .access-card {
+    top: 409px;
+    left: 817px;
+    cursor: pointer; }
+  .level-2 .access-granted {
+    top: 409px;
+    left: 510px;
+    display: none; }

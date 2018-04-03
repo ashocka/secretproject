@@ -214,6 +214,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/level-2\/acc.png": {
+		"ft": 32768,
+		"iS": 2833,
+		"oA": 0,
+		"oAP": "\/img\/level-2\/acc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/level-2\/backdrop01.png": {
+		"ft": 32768,
+		"iS": 15385,
+		"oA": 0,
+		"oAP": "\/img\/level-2\/backdrop01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/level-2\/cat.png": {
+		"ft": 32768,
+		"iS": 3097,
+		"oA": 0,
+		"oAP": "\/img\/level-2\/cat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/level-2\/granted.png": {
+		"ft": 32768,
+		"iS": 2802,
+		"oA": 0,
+		"oAP": "\/img\/level-2\/granted.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/splash\/cam.png": {
 		"ft": 32768,
 		"iS": 7354,
