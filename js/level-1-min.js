@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){var e=0;$(".number").click(function(){3===e&&$(".lights").removeClass("hide").delay(200).addClass("hide"),e++})});

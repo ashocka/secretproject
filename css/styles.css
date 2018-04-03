@@ -1,12 +1,135 @@
 body {
-	font-family: 'VT323', monospace;
-	font-size: 28px;
-}
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.hide {
+  display: none; }
+
+.close {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  z-index: 2; }
+
+.container {
+  position: relative; }
+
+.container * {
+  position: absolute; }
+
+.container .not-absolute {
+  position: initial; }
 
 ul {
-	list-style: none;
-}
+  list-style: none; }
 
 a {
-	text-decoration: none;
-}
+  text-decoration: none; }
+
+.container {
+  width: 1280px;
+  height: 720px; }
+
+.dialogue {
+  bottom: 10px;
+  text-align: center;
+  width: 100%; }
+
+.dialogue p {
+  position: relative;
+  display: none; }
+
+.dialogue .clerk {
+  color: #00b2c5; }
+
+.story-beginning {
+  background-image: url("../img/story-beginning/backdrop01.png"); }
+
+.story-beginning .character-cam {
+  bottom: 172px;
+  left: 300px; }
+
+.story-beginning .character-clerk {
+  bottom: 172px;
+  right: 200px; }
+
+.splash {
+  background: #7341e4; }
+
+.splash .splash-cam {
+  right: 0;
+  bottom: 0; }
+
+.splash .instructions {
+  width: 400px; }
+
+.splash .instructions p {
+  position: relative; }
+
+.show {
+  display: block !important; }
+
+.fade-in {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  opacity: 0; }
+
+.level-1 {
+  background-image: url("../img/level-1/backdrop01.png"); }
+  .level-1 .gates {
+    top: 366px;
+    left: 475px;
+    z-index: 1; }
+
+.level-1 .number-pad {
+  background-image: url("../img/level-1/pad-bg.png");
+  padding: 100px 70px;
+  width: 278px;
+  height: 369px;
+  margin: auto;
+  position: relative;
+  z-index: 2; }
+  .level-1 .number-pad .number {
+    width: 80px;
+    height: 95px;
+    position: relative;
+    display: inline-block; }
+    .level-1 .number-pad .number:active {
+      opacity: 0.6; }
+  .level-1 .number-pad .number-01 {
+    background-image: url("../img/level-1/pad-num-01.png"); }
+  .level-1 .number-pad .number-02 {
+    background-image: url("../img/level-1/pad-num-02.png"); }
+  .level-1 .number-pad .number-03 {
+    background-image: url("../img/level-1/pad-num-03.png"); }
+  .level-1 .number-pad .number-04 {
+    background-image: url("../img/level-1/pad-num-04.png"); }
+  .level-1 .number-pad .number-05 {
+    background-image: url("../img/level-1/pad-num-05.png"); }
+  .level-1 .number-pad .number-06 {
+    background-image: url("../img/level-1/pad-num-06.png"); }
+  .level-1 .number-pad .number-07 {
+    background-image: url("../img/level-1/pad-num-07.png"); }
+  .level-1 .number-pad .number-08 {
+    background-image: url("../img/level-1/pad-num-08.png"); }
+  .level-1 .number-pad .number-09 {
+    background-image: url("../img/level-1/pad-num-09.png"); }
+  .level-1 .number-pad .number-00 {
+    background-image: url("../img/level-1/pad-num-00.png"); }
+  .level-1 .number-pad .number-ha {
+    background-image: url("../img/level-1/pad-num-ha.png"); }
+  .level-1 .number-pad .lights {
+    background-image: url("../img/level-1/pad-lights_sprite.png");
+    width: 21px;
+    height: 21px;
+    position: relative;
+    float: right;
+    margin-right: 52px;
+    margin-top: 16px; }
