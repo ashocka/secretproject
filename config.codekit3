@@ -489,6 +489,13 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
 	"\/js": {
 		"ft": 65536,
 		"oA": 1,
@@ -521,13 +528,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/splash.html",
-		"oF": 0
-		},
-	"\/story-beginning.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/story-beginning.html",
 		"oF": 0
 		},
 	"\/story-ending.html": {

@@ -89,6 +89,16 @@ a {
 
 .splash .instructions {
 	width: 400px;
+	margin: 50px;
+    color: white;
+}
+
+.instructions a {
+	background-color: #f57e37;
+    color: white;
+    padding: 10px 54px;
+    box-shadow: 5px 5px #e07333;
+    text-transform: uppercase;
 }
 
 .splash .instructions p {

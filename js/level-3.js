@@ -12,7 +12,7 @@ jQuery( document ).ready(function() {
 		if (i % 2 === 0){
 			// do this when light is on
 
-			$('.safe').css('background-image', 'url(../img/level-3/safe-02.png)');
+			$('.safe').css('background-image', 'url(img/level-3/safe-02.png)');
 		} else {
 			// do this when light is off
 
@@ -20,10 +20,10 @@ jQuery( document ).ready(function() {
 			var t = d.getTime();
 	    
 	        if(t - lastClick > 6000 && lastClick !== 0) { // if light was on for more than 6 sec
-	        	$('.safe').css('background-image', 'url(../img/level-3/safe-04.png)');
+	        	$('.safe').css('background-image', 'url(img/level-3/safe-04.png)');
 
 			    $('.safe').click(function(){
-			        $('.safe').css('background-image', 'url(../img/level-3/safe-05.png)');
+			        $('.safe').css('background-image', 'url(img/level-3/safe-05.png)');
 
 			        // FIRST .show() the password input form
 				$('.safe').click(function(){
@@ -41,7 +41,6 @@ jQuery( document ).ready(function() {
 					var inputtedValue = $(this).val();
 
 					if(inputtedValue==="nses" || inputtedValue==="NSES") {
-				        console.log("granted");
 
 				        $('.lights').css('background-position', '23px 21px'); // UI feedback
 
@@ -62,7 +61,7 @@ jQuery( document ).ready(function() {
 			$('.backdrop-02').off(); // do nothing if element is clicked
 	            
 	        } else {
-				$('.safe').css('background-image', 'url(../img/level-3/safe-03.png)');
+				$('.safe').css('background-image', 'url(img/level-3/safe-03.png)');
 
 				$('.safe').off(); // do nothing if element is clicked
 	        }
