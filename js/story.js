@@ -12,14 +12,22 @@ jQuery( document ).ready(function() {
 // hard-coded narrative
 		if (i === 3) {
 			$('.character-cam').animate({
-			    left: "50px",
-			  }, 2000, function() {});
+			    left: "200px",
+			  }, 1000, function() {
+			  	$(this).hide();
+			  });
 		}
 
 		if (i === 4) {
+			$('.character-cam').attr("src", "img/story-beginning/cam-d.png");
+			$('.character-cam').show();
 			$('.character-cam').animate({
-			    left: "150px",
-			  }, 2000, function() {});
+			    left: "300px",
+			  }, 1000, function() {});
+		}
+
+		if (i === 5) {
+			$('.character-clerk').attr("src", "img/story-beginning/clerk-p.png");
 		}
 
 		/*if (i === 1) {

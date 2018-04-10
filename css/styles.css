@@ -148,3 +148,39 @@ a {
     top: 409px;
     left: 510px;
     display: none; }
+
+.level-3 {
+  background-image: url("../img/level-3/backdrop01.png"); }
+  .level-3 .backdrop-02 {
+    top: 329px;
+    left: 792px; }
+  .level-3 .light {
+    display: none;
+    right: 0;
+    top: 96px; }
+  .level-3 .safe {
+    background-image: url("../img/level-3/safe-01.png");
+    width: 145px;
+    height: 137px;
+    top: 213px;
+    left: 1000px; }
+  .level-3 .safe-password {
+    margin: auto;
+    position: relative;
+    width: 380px;
+    z-index: 2;
+    padding-top: 300px; }
+    .level-3 .safe-password .lights {
+      background-image: url("../img/level-1/pad-lights_sprite.png");
+      width: 21px;
+      height: 21px;
+      position: relative;
+      float: right;
+      border: 9px solid #292929;
+      box-shadow: black 7px 7px 0px;
+      margin-top: 10px; }
+  .level-3 .password {
+    font-size: 32px;
+    background-color: gray;
+    border: 9px solid #292929;
+    box-shadow: black 7px 7px 0px; }

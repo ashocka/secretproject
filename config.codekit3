@@ -7,7 +7,7 @@
 		"uuidString": "3CF01379-0930-4F72-961C-FCEC7A011EF6"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/build\/.gitignore": {
 		"cB": 0,
@@ -258,6 +258,94 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/level-3\/backdrop01.png": {
+		"ft": 32768,
+		"iS": 11419,
+		"oA": 0,
+		"oAP": "\/img\/level-3\/backdrop01.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/level-3\/backdrop02.png": {
+		"ft": 32768,
+		"iS": 4121,
+		"oA": 0,
+		"oAP": "\/img\/level-3\/backdrop02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/level-3\/light.png": {
+		"ft": 32768,
+		"iS": 55911,
+		"oA": 0,
+		"oAP": "\/img\/level-3\/light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/level-3\/safe-01.png": {
+		"ft": 32768,
+		"iS": 3169,
+		"oA": 0,
+		"oAP": "\/img\/level-3\/safe-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/level-3\/safe-02.png": {
+		"ft": 32768,
+		"iS": 3517,
+		"oA": 0,
+		"oAP": "\/img\/level-3\/safe-02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/level-3\/safe-03.png": {
+		"ft": 32768,
+		"iS": 3256,
+		"oA": 0,
+		"oAP": "\/img\/level-3\/safe-03.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/level-3\/safe-04.png": {
+		"ft": 32768,
+		"iS": 3218,
+		"oA": 0,
+		"oAP": "\/img\/level-3\/safe-04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/level-3\/safe-05.png": {
+		"ft": 32768,
+		"iS": 3236,
+		"oA": 0,
+		"oAP": "\/img\/level-3\/safe-05.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/splash\/cam.png": {
 		"ft": 32768,
 		"iS": 7354,
@@ -280,6 +368,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/story-beginning\/cam-d.png": {
+		"ft": 32768,
+		"iS": 3629,
+		"oA": 0,
+		"oAP": "\/img\/story-beginning\/cam-d.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/story-beginning\/cam.png": {
 		"ft": 32768,
 		"iS": 3577,
@@ -288,6 +387,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/story-beginning\/clerk-p.png": {
+		"ft": 32768,
+		"iS": 3951,
+		"oA": 0,
+		"oAP": "\/img\/story-beginning\/clerk-p.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -371,6 +481,7 @@
 	"displayValue": "cams-game",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-dunnoGirl",
+	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 543952127
 	},
 "projectSettings": {
@@ -2174,6 +2285,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
