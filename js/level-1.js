@@ -1,5 +1,29 @@
 jQuery( document ).ready(function() {
 
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function () {
+        $('<img />').attr('src',this).appendTo('body').css('display','none');
+    });
+}
+
+preload([
+    'img/level-1/backdrop01.png',
+    'img/level-1/gates.png',
+    'img/level-1/pad-bg.png',
+    'img/level-1/pad-lights_sprite.png',
+    'img/level-1/pad-num-00.png',
+    'img/level-1/pad-num-01.png',
+    'img/level-1/pad-num-02.png',
+    'img/level-1/pad-num-03.png',
+    'img/level-1/pad-num-04.png',
+    'img/level-1/pad-num-05.png',
+    'img/level-1/pad-num-06.png',
+    'img/level-1/pad-num-07.png',
+    'img/level-1/pad-num-08.png',
+    'img/level-1/pad-num-09.png',
+    'img/level-1/pad-num-ha.png'
+]);
+
 	$('.number-pad').hide();
 	$('.close').hide();
 

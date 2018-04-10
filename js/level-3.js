@@ -1,5 +1,23 @@
 jQuery( document ).ready(function() {
 
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function () {
+        $('<img />').attr('src',this).appendTo('body').css('display','none');
+    });
+}
+
+preload([
+    'img/level-3/backdrop01.png',
+    'img/level-3/backdrop02.png',
+    'img/level-3/light.png',
+    'img/level-3/safe-01.png',
+    'img/level-3/safe-02.png',
+    'img/level-3/safe-03.png',
+    'img/level-3/safe-04.png',
+    'img/level-3/safe-05.png',
+    'img/level-1/pad-lights_sprite.png'
+]);
+
 	$('.safe-password').hide();
 	$('.close').hide();
 
@@ -19,7 +37,7 @@ jQuery( document ).ready(function() {
 			var d = new Date();
 			var t = d.getTime();
 	    
-	        if(t - lastClick > 6000 && lastClick !== 0) { // if light was on for more than 6 sec
+	        if(t - lastClick > 60000 && lastClick !== 0) { // if light was on for more than 60 sec
 	        	$('.safe').css('background-image', 'url(img/level-3/safe-04.png)');
 
 			    $('.safe').click(function(){

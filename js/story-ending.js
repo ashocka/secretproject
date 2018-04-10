@@ -1,5 +1,19 @@
 jQuery( document ).ready(function() {
 
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function () {
+        $('<img />').attr('src',this).appendTo('body').css('display','none');
+    });
+}
+
+preload([
+    'img/story-ending/backdrop01.png',
+    'img/story-ending/cam.png',
+    'img/story-ending/cam-r.png',
+    'img/story-ending/janitor.png',
+    'img/story-ending/fade-in.png'
+]);
+
 	var i = 0;
 
 	$('.character-janitor').hide();

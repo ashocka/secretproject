@@ -1,8 +1,19 @@
 jQuery( document ).ready(function() {
 
-	/*$('.fade-in').animate({
-		 opacity: 1,
-	}, 1000, function() {}).delay(200);*/
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function () {
+        $('<img />').attr('src',this).appendTo('body').css('display','none');
+    });
+}
+
+preload([
+    'img/story-beginning/backdrop01.png',
+    'img/story-beginning/cam.png',
+    'img/story-beginning/cam-d.png',
+    'img/story-beginning/clerk.png',
+    'img/story-beginning/clerk-p.png',
+    'img/story-beginning/fade-in.png'
+]);
 
 	var i = 0;
 
