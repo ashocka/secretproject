@@ -47,8 +47,6 @@ jQuery( document ).ready(function() {
 			
 		}
 
-
-
 		else {
 			$('.dialogue p.show').removeClass('show').next().addClass('show');
 		}

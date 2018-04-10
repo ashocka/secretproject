@@ -60,6 +60,10 @@ a {
 		color: #00b2c5;
 	}
 
+	.dialogue .janitor {
+		color: #784111;
+	}
+
 .story-beginning {
 	background-image: url('../img/story-beginning/backdrop01.png');
 }
@@ -230,7 +234,24 @@ a {
 }
 
 
+.story-ending {
+	background-image: url('../img/story-ending/backdrop01.png');
+}
 
+.story-ending .character-cam {
+	bottom: 172px;
+	left: 300px;
+}
+
+.story-ending .runt {
+	bottom: 172px;
+	left: 400px;
+}
+
+.story-ending .character-janitor {
+	bottom: 172px;
+	right: 200px;
+}
 
 
 

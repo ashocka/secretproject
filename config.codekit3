@@ -423,6 +423,72 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/story-ending\/backdrop01.png": {
+		"ft": 32768,
+		"iS": 8007,
+		"oA": 0,
+		"oAP": "\/img\/story-ending\/backdrop01.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/story-ending\/cam-r.png": {
+		"ft": 32768,
+		"iS": 3748,
+		"oA": 0,
+		"oAP": "\/img\/story-ending\/cam-r.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/story-ending\/cam.png": {
+		"ft": 32768,
+		"iS": 357,
+		"oA": 0,
+		"oAP": "\/img\/story-ending\/cam.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/story-ending\/fade-in.png": {
+		"ft": 32768,
+		"iS": 126,
+		"oA": 0,
+		"oAP": "\/img\/story-ending\/fade-in.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/story-ending\/janitor.png": {
+		"ft": 32768,
+		"iS": 3772,
+		"oA": 0,
+		"oAP": "\/img\/story-ending\/janitor.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/story-ending\/runt.png": {
+		"ft": 32768,
+		"iS": 3084,
+		"oA": 0,
+		"oAP": "\/img\/story-ending\/runt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/js": {
 		"ft": 65536,
 		"oA": 1,
